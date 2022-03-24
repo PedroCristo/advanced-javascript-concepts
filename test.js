@@ -9,14 +9,15 @@
     return a + b;
 }
 
-let sum = addTwoNumbers2(3, 5);
-console.log(sum);*/
+let sum = addTwoNumbers(3, 5);
+console.log(sum)*/
 
 // Arrow Function With Parameters
 const addTwoNumbers = (a, b) => {
     // code block
     return a + b;
 }
+
 let sum = addTwoNumbers(3, 5);
 console.log(sum);
 
@@ -27,19 +28,5 @@ let sum2 = addTwoNumbers2(6, 4);
 console.log(sum2);
 
 // Implicit Returns
-const saySomething = message => console.log(message);
-saySomething("Hello John");
-
-const sayHello = () => console.log("Hello");
-sayHello()
 
 // Returning Multiple Lines
-const returnMultiLines = () => (
-    `
-    <p> 
-    This a multi line string.
-    </p>
-    `
-)
-
-console.log(returnMultiLines());
